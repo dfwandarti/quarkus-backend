@@ -12,8 +12,7 @@ import io.quarkus.runtime.annotations.RegisterForReflection;
 public class Post extends PanacheMongoEntity {
     private String title;
     private String content;
-    private long timestamp;
-    private String password = "abc";
+    private long timestamp;    
     
     public Post() {
     }
